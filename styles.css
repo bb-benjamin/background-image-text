@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@1,100&family=Satisfy&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(65, 51, 91, 0.059);
+}
+
+.heading {
+  font-size: 4rem;
+  font-weight: 900;
+  background: url(https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=612x612&w=0&k=20&c=i4HYO7xhao7CkGy7Zc_8XSNX_iqG0vAwNsrH1ERmw2Q=);
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
